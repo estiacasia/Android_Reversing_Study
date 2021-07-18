@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginHorizontal="12dp"
+	android:layout_marginBottom="10dp"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:maxWidth="28dp"
+					android:maxHeight="28dp"
+					android:src="@drawable/icon_close" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:text="글쓰기"
+					android:textColor="#000000" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:maxWidth="28dp"
+					android:maxHeight="28dp"
+					android:src="@drawable/icon_ok" />
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginTop="8dp"
+				android:background="#D3D0D0" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal">
+
+				<EditText
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:background="@android:color/transparent"
+					android:hint="제목"
+					android:inputType="text"
+					android:textColorHint="#000000" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:maxWidth="28dp"
+					android:maxHeight="28dp"
+					android:src="@drawable/icon_layer" />
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginTop="8dp"
+				android:background="#D3D0D0" />
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:background="@android:color/transparent"
+				android:hint="소제목"
+				android:inputType="text"
+				android:textColorHint="#000000" />
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginTop="8dp"
+				android:background="#D3D0D0" />
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:background="@android:color/transparent"
+				android:gravity="top"
+				android:hint="내용을 입력하세요"
+				android:inputType="textMultiLine"
+				android:textColorHint="#000000" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginTop="8dp"
+		android:background="#D3D0D0" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="6dp"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:maxWidth="28dp"
+			android:maxHeight="28dp"
+			android:src="@drawable/icon_photo" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="16dp"
+			android:adjustViewBounds="true"
+			android:maxWidth="28dp"
+			android:maxHeight="28dp"
+			android:src="@drawable/icon_color" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="16dp"
+			android:adjustViewBounds="true"
+			android:maxWidth="28dp"
+			android:maxHeight="28dp"
+			android:src="@drawable/icon_align" />
+	</LinearLayout>
+
+</LinearLayout>
