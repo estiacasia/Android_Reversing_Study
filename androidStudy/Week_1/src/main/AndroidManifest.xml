@@ -9,6 +9,15 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/Theme.MyApplication">
+		<activity android:name=".Mission4Result"></activity>
+		<activity android:name=".Mission4">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Mission3_Result" />
 		<activity
 			android:name=".Mission3"
 			android:label="@string/title_activity_mission3"
