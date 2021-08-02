@@ -2,3 +2,4 @@ rootProject.name = "My Application"
 include ':Week_1'
 include ':week_2'
 include ':week2_2'
+include ':week_3'
