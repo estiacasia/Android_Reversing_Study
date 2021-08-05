@@ -1,8 +1,6 @@
 package com.example.week_3;
 
-import android.Manifest;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -13,12 +11,8 @@ import android.os.Message;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -43,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements  OnMapReadyCallba
 	Location location;
 	Marker marker;
 	TextView addressView;
-	String resultAddress;
 	double mLat;
 	double mLng;
 
